@@ -1,0 +1,68 @@
+import './Header.css';
+
+export default function Header() {
+  return (
+    <>
+      <div className="pre-header">
+        <p className="pre-header-text">
+          Complimentary U.S. No-Rush Shipping on orders of $95 or more. Shop now
+        </p>
+      </div>
+      <div className="container">
+        <header className="header">
+          <div className="left-side-header">
+            <div className="logo">
+              <img src="src\assets\Logo.png" alt="CEIN logo" />
+            </div>
+            <ul className="header-list">
+              <li className="header-list-item">
+                <a className="header-list-item-link" href="#">
+                  Shop
+                </a>
+              </li>
+              <li className="header-list-item">
+                <a className="header-list-item-link" href="#">
+                  New Arrivals
+                </a>
+              </li>
+              <li className="header-list-item">
+                <a className="header-list-item-link" href="#">
+                  Sales
+                </a>
+              </li>
+              <li className="header-list-item">
+                <a className="header-list-item-link" href="#">
+                  Journel
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="right-side-header">
+            <ul className="header-list">
+              <li className="header-list-item">
+                <a className="header-list-item-link" href="#">
+                  Shop
+                </a>
+              </li>
+              <li className="header-list-item">
+                <a className="header-list-item-link" href="#">
+                  New Arrivals
+                </a>
+              </li>
+              <li className="header-list-item">
+                <a className="header-list-item-link" href="#">
+                  Sales
+                </a>
+              </li>
+              <li className="header-list-item">
+                <a className="header-list-item-link" href="#">
+                  Journel
+                </a>
+              </li>
+            </ul>
+          </div>
+        </header>
+      </div>
+    </>
+  );
+}

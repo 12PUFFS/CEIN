@@ -1,0 +1,55 @@
+.pre-header {
+  background: #000;
+  height: 44px;
+}
+
+.pre-header-text {
+  color: white;
+  padding: 12px 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.header {
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+}
+
+.left-side-header {
+  /* border: 1px solid red; */
+  align-items: center;
+  margin-right: auto;
+  display: flex;
+}
+
+.logo {
+  padding: 6px 0;
+  margin-right: 16px;
+}
+
+.header-list-item-link {
+  color: black;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-list-item {
+  color: black;
+  font-size: 11px;
+  padding: 6px 21px;
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1336px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
