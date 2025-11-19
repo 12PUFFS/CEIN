@@ -40,6 +40,47 @@
   color: white;
 }
 
+.header-list-item {
+  cursor: pointer;
+}
+
+.search:hover:hover .input-box input {
+  display: block;
+}
+
+.input-box input {
+  /* position: absolute; */
+  display: block;
+
+  /* transition: opacity 0.3s ease; */
+}
+
+.input-box input {
+  width: 100%;
+  padding: 21px;
+  display: none;
+
+  /* border: 1px solid; */
+  border: none;
+}
+
+/* input::placeholder {
+  padding: 40px;
+} */
+
+.container {
+  position: relative;
+}
+
+.header {
+  cursor: pointer;
+  z-index: 45678543;
+}
+
+.header-list-item p {
+  padding-left: 4px;
+}
+
 .left-side-header {
   /* border: 1px solid red; */
   align-items: center;
