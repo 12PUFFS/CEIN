@@ -48,6 +48,10 @@
   font-family: sans-serif;
 }
 
+body {
+  height: 200vh;
+}
+
 ul,
 a,
 li {

@@ -40,28 +40,40 @@ export default function Header() {
           <div className="right-side-header">
             <ul className="header-list">
               <li className="header-list-item">
-                <a className="header-list-item-link" href="#">
-                  Shop
-                </a>
+                <img
+                  src="src\assets\MagnifyingGlass.svg"
+                  alt="CEIN input svg"
+                />
               </li>
               <li className="header-list-item">
                 <a className="header-list-item-link" href="#">
-                  New Arrivals
+                  Stores
                 </a>
               </li>
               <li className="header-list-item">
-                <a className="header-list-item-link" href="#">
-                  Sales
-                </a>
+                <img src="src\assets\UserCircle.svg" alt="CEIN user svg" />
               </li>
               <li className="header-list-item">
-                <a className="header-list-item-link" href="#">
-                  Journel
-                </a>
+                <img src="src\assets\Heart.svg" alt="CEIN user svg" />
+              </li>
+              <li className="header-list-item">
+                <img src="src\assets\Bag.svg" alt="CEIN user svg" />
               </li>
             </ul>
           </div>
         </header>
+      </div>
+
+      <div className="hero-banner">
+        <div className="containeres">
+          <div className="hero-content">
+            <div className="hero-text">
+              Elevate Your Style <br /> Timeless Fashion, Sustainable <br />{' '}
+              Choices
+            </div>
+            <button className="btn">Shop Now</button>
+          </div>
+        </div>
       </div>
     </>
   );

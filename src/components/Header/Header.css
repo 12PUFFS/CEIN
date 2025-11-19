@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'StyreneAWeb-Regular';
+  src: url('/src/fonts/StyreneAWeb-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Рекомендуемая опция для производительности */
+}
+
+* {
+  font-family: 'StyreneAWeb-Regular';
+}
 .pre-header {
   background: #000;
   height: 44px;
@@ -7,13 +18,26 @@
   color: white;
   padding: 12px 0;
   text-align: center;
-  font-size: 15px;
+  font-size: 13.5px;
+  font-weight: 100;
 }
 
 .header {
   padding: 18px 0;
   display: flex;
   align-items: center;
+  /* border: 1px solid red; */
+}
+
+.btn {
+  padding: 11px 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.hero-text {
+  color: white;
 }
 
 .left-side-header {
@@ -23,13 +47,60 @@
   display: flex;
 }
 
-.logo {
+.right-side-header {
+  /* border: 1px solid; */
+}
+
+.right-side-header .header-list {
+  padding: 0;
+  gap: 18px;
+  align-items: center;
+}
+
+.right-side-header .header-list-item {
+  padding: 3px 0;
+}
+
+/* .logo {
   padding: 6px 0;
   margin-right: 16px;
-}
+} */
 
 .header-list-item-link {
   color: black;
+}
+
+.containeres {
+  max-width: 1345px;
+  /* border: 5px solid; */
+  /* margin: 0 auto; */
+}
+
+.hero-content {
+  margin-bottom: 64px;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.hero-text {
+  font-weight: 900;
+  font-family: 'StyreneAWeb-Regular';
+  font-size: 24px;
+}
+
+.hero-banner {
+  background-image: url(/src/assets/content.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  /* position: relative; */
+  height: 712px;
+  display: flex;
+  max-width: 1400px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 
 .header-list {
@@ -49,7 +120,7 @@ img {
 }
 
 .container {
-  max-width: 1336px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 32px;
 }
